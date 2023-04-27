@@ -1,3 +1,3 @@
-Actividad 02 - LPPA
+Actividades Semanales - LPPA
 
 Ezequiel Alderete
