@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="estilos.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,26 @@
 </head>
 <body>
     <header>
-        <img src="imagenes/logoLN.png" alt="La Nacion">
+        <!--<img src="imagenes/logoLN.png" alt="La Nacion">-->
         <nav>
             <ul>
-                <li><a href="#">Secciones</a></li>
-                <li><a href="#">Buscar</a></li>
-                <li><a href="registro.html">Suscribete</a></li>
-                <li><a href="login.html">Iniciar Sesion</a></li>
+                <li class="btn"><a href="#">Secciones</a></li>
+                <li class="btn"><a href="#">Buscar</a></li>
+                <li><img class="logoLN" src="imagenes/logoLN.png" alt=""></li>
+                <li><a id="btnSub" href="registro.html">Suscribete</a></li>
+                <li><a id="btnLogin" href="login.html">Iniciar Sesion</a></li>
             </ul>            
         </nav>
     </header>
+
     <main>
         <section>
             <h1>Historias espontáneas: Instagram permite publicar usando ambas cámaras del celular en simultáneo, al estilo BeReal</h1>
             <p>Instagram activó Historias espontáneas para todos los usuarios; permitirá publicar historias usando al mismo tiempo la cámara principal y la frontal en base a una notificación que dispara la plataforma, la función que define a la red social BeReal</p>
-            <p>21 de abril de 2023 09:42</p>
+            <p id="fecha">21 de abril de 2023 09:42</p>
             <br>
-            <img src="1.jpg" alt="">
-            <p>Instagram anunció "Historias espontáneas", que insta a publicar usando al mismo tiempo al cámara frontal y trasera del teléfono en un momento determinado del día, una función clásica de la ascendente red social BeReal</p>
+            <img class="med" src="imagenes/1.jpg" alt="">
+            <p class="epigrafe">Instagram anunció "Historias espontáneas", que insta a publicar usando al mismo tiempo al cámara frontal y trasera del teléfono en un momento determinado del día, una función clásica de la ascendente red social BeReal</p>
             <br>
         </section>
         <section>
@@ -35,7 +38,7 @@
                 Estas imágenes o videos tienen una duración de 24 horas, se colocan en la parte superior de la interfaz de la red social y se pueden ocultar a los contactos deseados -a través de la configuración de privacidad- así como fijarse en el perfil de la cuenta.
         
                 La compañía prepara ahora una funcionalidad similar a la que caracteriza a BeReal, otra red social que busca la autenticidad de las fotografías y que cuenta con un sistema de alertas diarias. Tras recibir la notificación, los usuarios disponen de un tiempo limitado para subir una imagen capturada tanto desde la cámara principal como de la selfi.</p>
-            <img src="2.jpg" alt="">
+            <img class="med" src="imagenes/2.jpg" alt="">
             <h2>Instagram presentó una nueva función, "Historias espontáneas", similar a una que ofrece BeReal, con publicaciones hechas con la cámara frontal y trasera del teléfono en simultáneo</h2>
             <br>
             <p>Instagram ha tomado esta característica como referencia para sus Historias espontáneas, una herramienta que ya han podido probar algunos usuarios, tal y como ha adelantado el analista y consultor de redes sociales Matt Navarra, que se ha hecho eco de lo compartido por el periodista Diego Poggi.
