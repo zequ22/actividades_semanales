@@ -43,6 +43,12 @@ table {
 }
 
 /* estructura propia*/
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
 
 header{
     background-color: white;
@@ -84,8 +90,9 @@ li a{
 }
 
 main{
-    width: 60%;
+    width: 70%;
     margin:auto;
+    box-sizing: border-box;
 }
 img.med{
     height: 100%;
@@ -132,4 +139,10 @@ footer div ul li{
 }
 .bajo{
     display:inline;
+}
+
+@media screen and (max-width: 800px){
+    .contenedor{
+        width:100%;
+    }
 }
